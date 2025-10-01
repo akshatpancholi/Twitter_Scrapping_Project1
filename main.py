@@ -10,7 +10,7 @@ import os
 # ==============================
 # TWITTER API SETUP (Tweepy)
 # ==============================
-BEARER_TOKEN = "AAAAAAAAAAAAAAAAAAAAAL0C4gEAAAAALLJrE2in09%2F5ciXr8jePSg14BXA%3DNBz3jfvR3HZbTNcTMNr38SksfHaEo6N1WAyPGurR04Y7fSUYBz"  # Replace with your real token
+BEARER_TOKEN = ""  # Replace with your real token
 client = tweepy.Client(bearer_token=BEARER_TOKEN)
 
 # ==============================
@@ -169,3 +169,4 @@ def main():
 # ==============================
 if __name__ == '__main__':
     main()
+
